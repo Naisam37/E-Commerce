@@ -44,3 +44,22 @@
 .card-img-product{
     margin-right: 20%;
 }
+
+@media only screen and (max-width: 500px) {
+    .heading-love{
+        display: none;
+    }
+    
+  }
+  @media only screen and (max-width: 480px) {
+    .heading-love1{
+        display: none;
+    }
+    
+  }
+  @media only screen and (max-width: 475px) {
+    .heading-arrival{
+        display: none;
+    }
+    
+  }

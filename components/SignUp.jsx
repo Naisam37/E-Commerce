@@ -38,7 +38,7 @@ const SignUpForm = () => {
     console.log(values);
     setusers([...users,values]);
     console.log(users);
-    navigate('/');
+    navigate('/login');
   };
 
   return (

@@ -17,12 +17,12 @@ function Products() {
         <Card.ImgOverlay className="d-flex align-items-center justify-content-start">
           <div style={{ textAlign: "left" }}>
             <Card.Body>
-              <Card.Title style={{ color: "white" }}>
-                <h1>Love the Planet</h1>
-                <h1>we walk on</h1>
+              <Card.Title style={{ color: "white" }} >
+                <h1 className="heading-love">Love the Planet</h1>
+                <h1 className="heading-love1">we walk on</h1>
               </Card.Title>
-              <Card.Text style={{ color: "white" }}>
-                <p>Bibendum fermentum, aenean donec pretium aliquam blandit</p>
+              <Card.Text className="heading-love1" style={{ color: "white" }}>
+                <p className="heading-love1">Bibendum fermentum, aenean donec pretium aliquam blandit</p>
                 tempor imperdiet arcu arcu ut nunc in dictum mauris at ut.
               </Card.Text>
               <Link to="/men">
@@ -30,8 +30,9 @@ function Products() {
                   variant="light"
                   text="dark"
                   size="lg"
-                  className="btn-hover rounded-0"
-                  style={{ fontSize: "14px", fontWeight: "600" }}
+                  className="btn-hover rounded-0 mb-5"
+                  style={{  fontSize: "14px", fontWeight: "600" }}
+                  
                 >
                   SHOP MEN
                 </Button>
@@ -40,7 +41,7 @@ function Products() {
                 <Button
                   variant="light"
                   size="lg"
-                  className="btn-hover rounded-0 ms-4"
+                  className="btn-hover rounded-0 ms-4 mb-5"
                   style={{ color: "dark", fontSize: "14px", fontWeight: "600" }}
                 >
                   SHOP WOMEN
@@ -55,7 +56,7 @@ function Products() {
       
       </Card>
 
-      <div style={{ width: '100%' }}>
+      {/* <div style={{ width: '100%' }}>
   <div className="ms-5 mt-5 card-img-product" style={{ width: '70%', display: 'flex' }}>
     <Card.Img
     style={{width:'50%'}}
@@ -92,9 +93,9 @@ function Products() {
       </p>
     </div>
   </div>
-</div>
+</div> */}
 
-      <div style={{backgroundColor:'white', width:'100%', height:'5rem'}}><p  style={{
+      <div className="mt-5 heading-arrival" style={{backgroundColor:'white', width:'100%', height:'5rem'}}><p className="" style={{
             fontSize: "4rem",
             fontFamily: "Poppins,sans-serif",
             fontWeight: 550,

@@ -1,16 +1,16 @@
-import Button from 'react-bootstrap/Button';
+
 import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './header.css';
 import { Link, useNavigate} from 'react-router-dom';
 import { FaUserAlt } from 'react-icons/fa';
-import { BiCartDownload } from 'react-icons/Bi';
+import { BiCartDownload  } from 'react-icons/bi';
 import { AiOutlineLogout } from "react-icons/ai";
 import { context } from './Context';
 import { useContext } from 'react';
 import { Badge } from 'react-bootstrap';
+
 
 
 
