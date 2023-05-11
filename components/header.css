@@ -79,3 +79,20 @@
 
   }
 
+  @media only screen and (max-width: 436px) {
+    .collection-text{
+      font-size: 2rem !important;
+
+    }
+
+  }
+
+  @media only screen and (max-width: 436px) {
+    .kuttapu{
+      width: 15rem !important;
+
+    }
+
+  }
+
+

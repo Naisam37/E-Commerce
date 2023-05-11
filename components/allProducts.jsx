@@ -49,7 +49,7 @@ function Allproducts() {
 
       <div className="d-flex flex-column  container pt-5 ps-5 woocommerce-products-header__title page-title " style={{ backgroundColor: "white" , maxWidth:'90%' }}>
       <h2
-          className=" px-5 woocommerce-products-header__title page-title"
+          
           style={{
             
             fontSize: "3rem",
@@ -58,13 +58,14 @@ function Allproducts() {
             color: "#6e7051",
             margin: "0 auto",
           }}
+          className=" collection-text px-5 woocommerce-products-header__title page-title "
         >
           COLLECTION
         </h2>
-          <div className="row gap-5  pt-5 d-flex  mx-auto" >
+          <div className="row gap-5  pt-5 d-flex  mx-auto " > 
             {product.map((item) => (
               <Card
-                className="shadow p-3 mb-5 bg-body-tertiary rounded border border-0 rounded-0"
+                className="shadow p-2 mb-5 bg-body-tertiary rounded border border-0 rounded-0 mx-auto kuttapu"
                 style={{ width: "18rem" }}
               >
                 <Card.Img onClick={() => navigate(`/view/${item.id}`)} className="image" variant="top" src={item.image} />

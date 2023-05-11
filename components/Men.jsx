@@ -33,10 +33,10 @@ function Men() {
         <div className="row gap-5 pt-5 d-flex  mx-auto">
           {data.map((item) => (
             <Card
-              className="shadow p-3 mb-5 bg-body-tertiary rounded border border-0 rounded-0"
-              style={{
-                width: "18rem",
-                boxShadow: " 7px 5px 8px rgba(0, 0, 0, 0.8)",
+              className="shadow p-3 mb-5 bg-body-tertiary rounded border border-0 rounded-0  kuttapu "
+              style={{    
+                width:'18rem',
+                    boxShadow: " 7px 5px 8px rgba(0, 0, 0, 0.8)",
               }}
             >
               <Card.Img onClick={() => navigate(`/view/${item.id}`)} variant="top" className="image" src={item.image} />

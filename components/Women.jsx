@@ -11,7 +11,7 @@ function Women() {
   const navigate = useNavigate();
 
   return (
-    <div style={{ backgroundColor: "#f1f1ef", width: "100%" }}>
+    <div style={{ backgroundColor: "#f1f1ef", width: "100%" ,}}>
       <div
         style={{ width: "100%", backgroundColor: "#f1f1ef", height: "10vh" }}
       ></div>
@@ -35,7 +35,7 @@ function Women() {
         <div className="row gap-5 pt-5 d-flex  mx-auto">
           {data.map((item) => (
             <Card
-              className="shadow p-3 mb-5 bg-body-tertiary rounded border border-0 rounded-0"
+              className="shadow p-3 mb-5 bg-body-tertiary rounded border border-0 rounded-0 kuttapu"
               style={{
                 width: "18rem",
                 boxShadow: " 7px 5px 8px rgba(0, 0, 0, 0.8)",
