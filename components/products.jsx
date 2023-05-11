@@ -30,7 +30,7 @@ function Products() {
                   variant="light"
                   text="dark"
                   size="lg"
-                  className="btn-hover rounded-0 mb-5"
+                  className="btn-hover rounded-0 mb-5 shop-button"
                   style={{  fontSize: "14px", fontWeight: "600" }}
                   
                 >
@@ -41,7 +41,7 @@ function Products() {
                 <Button
                   variant="light"
                   size="lg"
-                  className="btn-hover rounded-0 ms-4 mb-5"
+                  className="btn-hover rounded-0 ms-4 mb-5 shop-button"
                   style={{ color: "dark", fontSize: "14px", fontWeight: "600" }}
                 >
                   SHOP WOMEN

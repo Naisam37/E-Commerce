@@ -28,7 +28,7 @@ function NavScrollExample() {
 
     <>
     <div className='hed'>Free Express Shipping on all orders with all duties included</div>
-    <Navbar bg="light" expand="lg"  style={{height:'11vh'}}>
+    <Navbar bg="light" expand="lg" sticky="top" >
     <Navbar sticky="top" />
       <Container fluid>
         <Navbar.Brand href="/" className=' ps-5 pe-5' style={{fontSize:'1.5rem', fontFamily:'Poppins,sans-serif', fontWeight:600,}}>P L A S H O E</Navbar.Brand>
