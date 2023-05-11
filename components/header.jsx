@@ -59,7 +59,7 @@ function NavScrollExample() {
             />
             <Button variant="outline-success">Search</Button>
           </Form> */}
-          {auth?  <Nav.Link as={Link} to="/cart"> <BiCartDownload  size={30} className='ms-4'/><Badge className='me-4' style={{color:'black'}}>{carts.length}</Badge></Nav.Link>:null}
+          {auth?  <Nav.Link as={Link} to="/cart"> <BiCartDownload  size={30} /><Badge className='me-4' style={{color:'black'}}>{carts.length}</Badge></Nav.Link>:null}
 
           {badge.map((e)=>(auth?<Badge  style={{backgroundColor:'white' , color:'black'}}>{e.name}</Badge>:null))}
           {auth?    <div onClick={LogoutHandler}><AiOutlineLogout size={30} className=' ms-4'/></div>:<Nav.Link as={Link} to='/login'> <FaUserAlt size={25} className='ms-4'/></Nav.Link>}

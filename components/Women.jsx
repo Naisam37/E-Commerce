@@ -20,7 +20,7 @@ function Women() {
         style={{ backgroundColor: "white", maxWidth: "90%" }}
       >
         <h2
-          className=" px-5 woocommerce-products-header__title page-title"
+          className=" woman-txt  px-5 woocommerce-products-header__title page-title "
           style={{
             backgroundColor: "white",
             fontSize: "4rem",
