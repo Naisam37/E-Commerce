@@ -20,7 +20,7 @@
 
 .kunjimon{
   padding-top:8%;
-  height: 100vh;
+  height: 120vh;
   background-color: #f1f1ef;
 }
 .upform h2 {
@@ -185,3 +185,10 @@ button:hover .arrow {
 button:hover .arrow:before {
   right: 0;
 }
+
+  @media only screen and (max-width: 365px) {
+    .upform{
+        width: 80%;
+    }
+
+  }

@@ -86,7 +86,7 @@
   .beef{
     padding-top:8%;
     background-color: #f1f1ef;
-    height: 100vh;
+    height: 120vh;
   }
   .acnt-text{
     text-decoration: none;
@@ -108,4 +108,11 @@
      
       transform: scale(1);
     }
+  }
+
+  @media only screen and (max-width: 365px) {
+    .inform{
+        width: 80%;
+    }
+  
   }

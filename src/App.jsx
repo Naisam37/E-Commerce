@@ -64,6 +64,7 @@ function App() {
   };
 
   useEffect(() => {
+    window.scroll(0,0)
     if (location.pathname.includes("admin")) {
       setchange(true);
     } else if (location.pathname.includes("login")) {
@@ -71,7 +72,7 @@ function App() {
     } else {
       setchange(false);
     }
-  }, [location]);
+  }, [location,[]]);
   return (
     <>
       
